@@ -1,0 +1,207 @@
+.section3__container {
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.section3 {
+  padding: 52px 0px;
+}
+
+.section3__icon0 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 230px;
+  margin-bottom: 30px;
+}
+
+.section3__icon0-image {
+  border-radius: 18px;
+  border: 6px solid $orange_btn;
+  background-color: $orange_btn;
+}
+
+.section3__title {
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  color: $black;
+  font-size: 20px;
+}
+
+
+.section3__icon {
+  width: 55px;
+  height: 55px;
+  margin-left: 45px;
+  margin-bottom: 27px;
+  border-radius: 27.5008px;
+  position: relative;
+}
+
+.section3__icon--1 {
+  background-color: #fbeed7;
+}
+
+.section3__icon--2 {
+  background-color: #f8e0d7;
+}
+
+.section3__icon--3 {
+  background-color: #e3dcf8;
+}
+
+.section3__icon--4 {
+  background-color: #dfeeec;
+}
+
+.section3__icon--5 {
+  background-color: #e3dcf8;
+}
+
+.section3__icon--6 {
+  background-color: #f8e0d7;
+}
+
+.section3__icon--7 {
+  background-color: #fbeed7;
+}
+
+.section3__icon-image {
+  border: 0px solid #fbeed7;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section3__text {
+  font-family: 'Ubuntu';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-left: 45px;
+  color: #464646;
+}
+
+.section3__list-item:not(:last-child) {
+  margin-bottom: 28px;
+}
+
+@media (min-width: 768px) {
+  .section3__container {
+    max-width: 620px;
+    margin: 0 auto;
+  }
+
+  .section3 {
+    padding: 68px 0px;
+  }
+
+  .section3__title {
+    font-size: 33px;
+    line-height: 1;
+  }
+
+  .section3__icon0 {
+    margin-bottom: 17px;
+    max-width: 360px;
+    margin-bottom: 47px;
+  }
+
+
+  .section3__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .section3__list-item {
+    width: 290px;
+  }
+
+
+
+  .section3__icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-bottom: 17px;
+  }
+
+  .section3__list-item:nth-child(n-2) {
+    margin-bottom: 36px;
+  }
+
+  .section3__text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .section3__container {
+    max-width: 1199px;
+  }
+
+  .section3 {
+    padding: 112px 0px;
+    background-image: url(../images/section3_b.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+  }
+
+  .section3__icon {
+    width: 95px;
+    height: 95px;
+    border-radius: 47.5008px;
+    margin-bottom: 27px;
+
+  }
+
+  .section3__list-item {
+    flex-basis: 221px;
+  }
+
+  .section3__list-item:nth-child(1) {
+    margin-right: 88px;
+  }
+
+  .section3__list-item:nth-child(2) {
+    margin-right: 88px;
+  }
+
+  .section3__list-item:nth-child(3) {
+    margin-right: 88px;
+  }
+
+  .section3__list-item:nth-child(5) {
+    margin-right: 88px;
+  }
+
+  .section3__list-item:nth-child(6) {
+    margin-right: 88px;
+  }
+
+  .section3__list-item:nth-child(n) {
+    margin-bottom: 65px;
+  }
+
+
+  .section3__text {
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 0;
+  }
+
+  .section3__icon0 {
+    margin-bottom: 65px;
+
+  }
+
+  .section3__icon {
+    margin-left: 0;
+  }
+
+}
